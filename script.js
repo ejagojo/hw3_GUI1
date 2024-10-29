@@ -28,6 +28,11 @@ form_container.addEventListener("submit", (e) => {
     const max_col_input_val = parseInt(max_col_input.value);
     const min_row_input_val = parseInt(min_row_input.value);
     const max_row_input_val = parseInt(max_row_input.value);
+    
+    console.log("The minimum column input: " + min_col_input_val);
+    console.log("The maximum column input: " + max_col_input_val);
+    console.log("The minimum row input: " + min_row_input_val);
+    console.log("The maximum row input: " + max_row_input_val);
 
     // Validate inputs and display error if necessary
     const validationResult = validateInputs(min_col_input_val, max_col_input_val, min_row_input_val, max_row_input_val);
