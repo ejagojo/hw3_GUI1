@@ -73,7 +73,7 @@ body {
     padding-left: 10px;
 }
 
-/* Label Position Adjustments: moves label above input when focused or not empty */
+/* Label Position: moves label above input when focused or not empty */
 .form-group input:focus + label,
 .form-group input:not(:placeholder-shown) + label {
     top: -15px;
@@ -137,7 +137,7 @@ h1 {
     text-align: center;
 }
 
-/* Header Styling: makes the header row sticky and gives it a dark background */
+/* Header Styling: makes the header row sticky */
 #table-container th {
     background-color: #333333;
     position: sticky;
@@ -202,7 +202,7 @@ h1 {
     }
 
     button[type="submit"] {
-        width: 100%; /* Full width button on smaller screens */
+        width: 30%; /* Full width button on smaller screens */
     }
 
     h1 {
